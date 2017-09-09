@@ -23,6 +23,8 @@ To create a coded statement use the back tick and the result is as followed
 ```
 
 ***
-Here is the class website![Link to youtube](https://www.youtube.com)
+Here is  a link to youtube! <https://www.youtube.com>
 
 This is an inline logo ![Screenshot of my Directory](./images/screenshot-1.png)
+
+Another line of text
