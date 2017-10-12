@@ -5,3 +5,5 @@
 //TODO: Create a color scheme that is simple and tri-toned
 
 <!-- September 25th Created the inital webpage with skeletal structure -->
+<!-- Started and Completed the work for HW-03 on October 10th-->
+<!--    Added pages of instructions, forum, and images -->
