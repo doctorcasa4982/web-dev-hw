@@ -21,3 +21,18 @@
   ./images/example.jpg is a reference point for the work of photography I will be doing
 
   -->
+<!--
+  HW 5 Addition of December 4th
+
+  I am so sorry for the delay to posting this. Here is what I have done.
+
+  I added all the required elements from the homework on Typography.
+  To incorperate a pseduo element I took inspiration from the w3schools.com website and created a navigation bar that rests at the top of each page using the color schemes to determine which page is currently active in the navigation. This way there is a consistant element throughout all the pages.
+
+  I added the use of black for text as I felt it complimented the rest of the color scheme. On top of the very clean and cut text I wanted to add a professional looking script text for the quote added to the about me page.
+
+  For the sample page I plan to have it include a breif history of Tintype through a few images.
+
+  I really appreciate the stretch room for getting these assignments done. Though I understand what i ma doing, staying on top of coding has been a bit of a hassle. I plan to get completely caught up today though.
+
+   -->

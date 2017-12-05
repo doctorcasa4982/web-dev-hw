@@ -1,0 +1,122 @@
+selector::first-line {}
+p::first-line {font-size: 1.25em}
+
+
+p.paragraph-block {
+  position: relative;
+  left: 20px;
+  font-family: 'Arvo', serif;
+  font-weight: 100;
+  font-size: 20;
+  max-width: 75%;
+  height: auto;
+}
+
+body.body-style {
+  vertical-align: middle;
+  margin:auto;
+  background-color: #3f5085;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+h1.heading-style {
+  position: relative;
+  vertical-align: middle;
+  left: 20px;
+  align-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 38;
+}
+
+.quotes {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: auto;
+  left: 20px;
+  font-weight: 200;
+  max-width: 75%;
+}
+
+img {
+  border-radius: 10px;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+input.general-text {
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 8px;
+  background-color: #3b8273;
+  left: 20px;
+  margin: auto;
+}
+
+input.text-area {
+
+  height: 200px;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  font-weight: 100;
+  border-radius: 8px;
+  background-color: #3b8273;
+  left: 20px;
+  margin: auto;
+}
+
+form.forms-all {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  left: 20px;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+button {
+  border-radius: 10px;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  background-color: #614391;
+  font-weight: 200;
+}
+
+ul {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Arvo', serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #614391;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 10px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #3b8273;
+}
+
+li a:hover:not(.active){
+  background-color: #503280;
+  color:  #3b8273;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #2e4063;
+  color:  #3b8273;
+}
