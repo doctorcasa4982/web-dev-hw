@@ -22,15 +22,20 @@ body.body-style {
 }
 
 h1.heading-style {
-  position: relative;
-  vertical-align: middle;
+  display: inline;
+  position: sticky;
+  text-align:center;
   left: 20px;
-  align-content: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 38;
 }
 
+.primary-container {
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
 .quotes {
   font-family: 'Pacifico', cursive;
   font-size: 30px;
@@ -38,6 +43,15 @@ h1.heading-style {
   left: 20px;
   font-weight: 200;
   max-width: 75%;
+}
+
+.icon {
+  height: 100px;
+  width: inherit;
+  margin-top: 1em;
+  margin-left: -1em;
+  padding:inherit;
+  display: inline;
 }
 
 img {
@@ -86,8 +100,8 @@ button {
   font-weight: 200;
 }
 
-ul {
-  position:fixed;
+ .menu-style {
+
   top: 0;
   width: 100%;
   font-family: 'Arvo', serif;
@@ -102,10 +116,10 @@ li {
   float: left;
 }
 
-li a {
+.menu-item {
   padding: 10px;
   text-align: center;
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #3b8273;
 }
@@ -116,7 +130,23 @@ li a:hover:not(.active){
   text-decoration: underline;
 }
 
+.dropdown-menu-base {
+  display: inline;
+}
+
+.dropdown-menu-content {
+  display: none;
+  background-color:  #dcefeb;
+  color:  #20463e;
+  z-index: 1;
+  margin: inherit;
+}
+
+.dropdown-menu-base:hover .dropdown-menu-content {
+  display: block;
+}
 .active {
+  display: inline-block;
   background-color: #2e4063;
   color:  #3b8273;
 }
